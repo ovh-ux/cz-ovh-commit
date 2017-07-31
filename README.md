@@ -23,6 +23,38 @@ in the repos:
   git cz -a
 ```
 
+### customization
+
+You can specify a custom config in you `package.json`, just add :
+```json
+"config": {
+  ...
+  "cz-ovh-commit": {
+    "config": "./path/to/your/config/file"
+  }
+  ...
+}
+```
+
+this file can be either `.json` or `.js`.
+Example of a json file type:
+```json
+{
+  "TYPES": [
+      { "value": "feat", "name": "A new feature" },
+      { "value": "fix", "name": "A bug fix" },
+      { "value": "docs", "name": "Documentation" },
+      { "value": "style", "name": "Cosmetics purpose" },
+      { "value": "refactor", "name": "Refactor"},
+      { "value": "test", "name": "Adding missing or correcting tests" },
+      { "value": "chore", "name": "Maintenance" }
+  ],
+  "EMOJIS": {},
+  "useScope": ["feat", "fix", "docs", "style", "refactor", "test", "chore"]
+}
+```
+You can find more details about the config file in `ovh-config.js`
+
 ## Get the sources
 
 ```bash

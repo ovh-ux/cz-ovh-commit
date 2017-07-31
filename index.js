@@ -2,10 +2,23 @@
 
 const inquirer = require("inquirer");
 const _ = require("lodash");
-const config = require("./ovh-config");
+const findConfig = require("find-config");
+const path = require("path");
+
+function getConfig () {
+    let pkg = findConfig.require("package.json");
+    let configFile = "./ovh-config";
+    if (pkg && pkg.config && pkg.config["cz-ovh-commit"] && pkg.config["cz-ovh-commit"].config !== "") {
+        configFile = path.resolve(pkg.config["cz-ovh-commit"].config);
+        console.warn("Using custom config file : ", configFile);
+    }
+    return Object.assign({}, require("./ovh-config"), require(configFile));
+}
 
 module.exports = {
     prompter (cz, commit) {
+        const config = getConfig();
+
         inquirer
             .prompt([
                 {
