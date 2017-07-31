@@ -7,7 +7,7 @@ const findConfig = require("find-config");
 function getConfig () {
     let pkg = findConfig.require("package.json");
     let configFile = _.get(pkg, "config.cz-ovh-commit.config", "./ovh-config");
-    console.log("Using config file : ", configFile);
+    console.log("Using config file: ", configFile);
     return Object.assign({}, require("./ovh-config"), require(configFile));
 }
 
