@@ -23,7 +23,7 @@
   },
   "config": {
     "commitizen": {
-        "path": "./index"
+      "path": "./index"
     }
   }
 }
