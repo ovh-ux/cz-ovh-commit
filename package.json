@@ -1,0 +1,29 @@
+{
+  "name": "cz-ovh-commit",
+  "version": "1.0.0",
+  "description": "OVH commit convention",
+  "bin": "./index.js",
+  "author": "OVH SAS",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "lint": "eslint --ext .js . --quiet",
+    "commit": "git-cz",
+    "precommit": "npm run lint"
+  },
+  "repository": "ovh-ux/cz-ovh-commit",
+  "dependencies": {
+    "commitizen": "^2.7.6",
+    "inquirer": "^3.2.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "~3.13.1",
+    "eslint-config-ovh": "^0.1.1"
+  },
+  "config": {
+    "commitizen": {
+        "path": "./index"
+    }
+  }
+}
