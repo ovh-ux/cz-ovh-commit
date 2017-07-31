@@ -25,7 +25,7 @@ in the repos:
 
 ### customization
 
-You can specify a custom config in you `package.json`, just add :
+You can specify a custom config in your `package.json`, just add :
 ```json
 "config": {
   ...
