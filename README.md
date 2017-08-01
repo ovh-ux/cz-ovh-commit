@@ -77,7 +77,7 @@ look in `ovh-config.js` for building your config file
 
 # Related links
 
- * Contribute: https://github.com/ovh-ux/cz-ovh-commit/blob/master/CONTRIBUTING.md
+ * Contribute: https://github.com/ovh-ux/ovh-ux-guidelines/blob/master/.github/CONTRIBUTING.md
  * Report bugs: https://github.com/ovh-ux/cz-ovh-commit/issues
  * Get latest version: https://github.com/ovh-ux/cz-ovh-commit
 
