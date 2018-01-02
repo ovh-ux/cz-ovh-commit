@@ -1,9 +1,8 @@
-
 # cz-ovh-commit
 
 ![OVH component](https://user-images.githubusercontent.com/3379410/27423240-3f944bc4-5731-11e7-87bb-3ff603aff8a7.png)
 
-[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)]() [![Chat on gitter](https://img.shields.io/gitter/room/ovh/ux.svg)](https://gitter.im/ovh/ux) [![Build Status](https://travis-ci.org/ovh-ux/cz-ovh-commit.svg)](https://travis-ci.org/ovh-ux/cz-ovh-commit) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)]() [![Chat on gitter](https://img.shields.io/gitter/room/ovh/ux.svg)](https://gitter.im/ovh/ux) [![Build Status](https://travis-ci.org/ovh-ux/cz-ovh-commit.svg)](https://travis-ci.org/ovh-ux/cz-ovh-commit) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 [![NPM](https://nodei.co/npm/cz-ovh-commit.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/cz-ovh-commit/)
 
