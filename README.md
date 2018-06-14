@@ -64,7 +64,7 @@ You can find more details about the config file in `ovh-config.js`
 You've developed a new cool feature? Fixed an annoying bug? We'd be happy
 to hear from you!
 
-see https://github.com/ovh-ux/cz-ovh-commit/blob/master/CONTRIBUTING.md
+see: [CONTRIBUTING.md](https://github.com/ovh-ux/cz-ovh-commit/blob/master/.github/CONTRIBUTING.md)
 
 ## Run the tests
 
