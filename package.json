@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint": "~3.13.1",
+    "eslint": "~4.18.2",
     "eslint-config-ovh": "^0.1.1",
     "husky": "^0.14.3"
   },
